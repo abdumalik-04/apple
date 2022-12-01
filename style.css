@@ -1,0 +1,187 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+        max-width: 1400px;
+        display: block;
+        margin: auto;
+        box-sizing: border-box;
+    }
+.container{
+width: 90%;
+margin: 0 auto;
+}
+.box{
+background-color: blue;
+height: 100px;
+width: 90%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.box1
+{
+height: 69px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.box3 button{
+padding: 10px 20px;
+border: 2px solid blue;
+color: blue;
+}
+.shop{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 147px;
+}
+.right button{
+padding: 10px 20px;
+}
+.img1{
+    display: flex;
+height: 200px;
+justify-content: space-between;
+
+}
+.img1 img{
+width: 200px;
+height: 200px;
+}
+.div{
+    margin-top: 20px;
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.div5{
+display: flex;
+justify-content: space-between;
+color: blue;
+}
+.div4{
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 20px;
+}
+.div4 button{
+padding: 5px 20px;
+border: 2px solid blue;
+color: blue;
+transition: all 1s ease-in-out;
+}
+.div4 button:hover{
+    background-color: brown;
+    color: beige;
+}
+.dip img{
+width: 200px;
+height: 200px;
+}
+.dip{
+    margin-top: 50px;
+height: 200px;
+display: flex;
+justify-content: space-between;
+}
+.text{
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.text1{
+height: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: blue;
+}
+.text2{
+    margin-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 20px;
+}
+.text2 button{
+    padding: 5px 20px;
+border: 2px solid blue;
+color: blue;
+transition: all 1s ease-in-out;
+}
+.text2 button:hover{
+background-color: brown;
+color: beige;
+}
+.page{
+    display: flex;
+    gap: 10px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.page p:nth-child(1){
+width: 20px;
+height: 20px;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.ready{
+    padding: 5px 0;
+    width: 100%;
+    margin: 0 auto;
+height: 150px;
+background-color: #f4f4f4;
+}
+ .learn{
+display: flex;
+justify-content: center;
+align-items: center;
+color: blue;
+}
+.take{
+display: flex;
+justify-content: center;
+}
+.button{
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+.button button:nth-child(1){
+padding: 3px 5px;
+color: blue;
+border: 2px solid blue;
+}
+.button button:nth-child(2){
+padding: 3px 5px;
+border: 2px solid blue;
+background-color: blue;
+color: white;
+}
+.tekst{
+    margin-top: 40px;
+display: flex;
+justify-content: space-between;
+}
+.tekst a{
+text-decoration: none;
+color: black;
+}
+.top{
+display: flex;
+justify-content: center;
+
+}
